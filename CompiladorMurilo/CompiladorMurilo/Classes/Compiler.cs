@@ -72,7 +72,7 @@ namespace CompiladorMurilo.Classes
             Tokens.RemoveAt(0);
             if (temp.Type == "NUMBER")
             {
-                textFile.Append($"    ldc{ temp.Text }\n");                
+                textFile.Append($"    ldc { temp.Text }\n");                
             }
             else if (temp.Type == "OP_PAR")
             {

@@ -1,6 +1,7 @@
 ﻿using CompiladorMurilo.Classes;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace CompiladorMurilo
 {
@@ -17,10 +18,9 @@ namespace CompiladorMurilo
             var compiler = new Compiler(tokens);
             string output = compiler.ByteCode();
 
-            foreach (var token in tokens)
-            {
-                Console.WriteLine(token.ToString());
-            }
+            string file = @"C:\Users\mvs_r\OneDrive\Documents\GitHub\Compiladores\Test.j";
+
+            File.WriteAllText(file, output);
 
             Console.WriteLine(output);
         }
