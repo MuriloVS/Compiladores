@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompiladorMurilo", "CompiladorMurilo\CompiladorMurilo.csproj", "{A30306B3-E3F1-4468-B884-50B03CDD1CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A30306B3-E3F1-4468-B884-50B03CDD1CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30306B3-E3F1-4468-B884-50B03CDD1CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30306B3-E3F1-4468-B884-50B03CDD1CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30306B3-E3F1-4468-B884-50B03CDD1CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {596F5717-B0B5-4D74-939B-0B28DDF6083A}
+	EndGlobalSection
+EndGlobal
