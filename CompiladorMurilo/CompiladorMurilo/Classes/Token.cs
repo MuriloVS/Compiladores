@@ -18,6 +18,7 @@ namespace CompiladorMurilo.Classes
 
         public override string ToString()
         {
+
             return $"({ Type } { Text })";
         }
     }

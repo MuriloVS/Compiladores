@@ -14,11 +14,15 @@ namespace CompiladorMurilo
             var lexer = new Lexer();
             List<Token> tokens = lexer.ReturnTokens(input);
 
+            var compiler = new Compiler(tokens);
+            string output = compiler.ByteCode();
+
             foreach (var token in tokens)
             {
                 Console.WriteLine(token.ToString());
             }
-            
+
+            Console.WriteLine(output);
         }
     }
 }
